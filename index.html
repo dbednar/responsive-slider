@@ -1,0 +1,58 @@
+<!Doctype html>
+<html>
+	<head>
+	
+	<title>Slider</title>
+	
+   <meta charset="UTF-8">
+  <meta name="description" content="Free Web Slider">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="Damian Bednarczyk && Michał Bożek">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/ico.png" type="image/x-icon">
+
+	<link  rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/slider.js"></script>
+	</head>
+<style>
+	
+
+</style>
+	<body>
+	<div class="slider">
+	
+
+	
+	<div id="slider-list">
+	
+		<div class="border"><img class="border-img" src="img/hey.minions.jpg"></div>
+		
+		<div class="border"><img class="border-img" src="img/minins.jpg"></div>
+		
+		<div class="border"><img class="border-img" src="img/minionk.jpg"></div>
+		
+		<div class="border"><img class="border-img" src="img/minionki-1.jpg"></div>
+		
+		<div class="border"><img class="border-img" src="img/puzzle.jpg"></div>
+		<div class="border"><img class="border-img" src="img/teams.jpg"></div>
+	</div>
+	<div class="pagination">
+		<button type="button" class="next unstyled-button"> <img src="img/next.png" width="50px" height="auto"> </button>
+		<button type="button" class="prev unstyled-button"> <img src="img/prev.png" width="50px" height="auto"> </button>
+	</div>
+
+	</div>
+	
+	
+	
+	<script>
+	$(document).ready(function(){
+		slider({'loop':true,'autoload':false});
+	});
+		
+	
+	</script>
+	</body>
+	
+</html>
